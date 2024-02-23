@@ -20,11 +20,11 @@ const transaction=new Schema({
         type:Date,
         required:true
     },
-    // user: {
-    //     type: ObjectId,
-    //     ref: 'User.model',
-    //     required: true
-    // }
+    user: {
+        type: ObjectId,
+        ref: 'login',
+        required: true
+    }
 
     
 })
